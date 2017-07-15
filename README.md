@@ -38,8 +38,18 @@ while (x < 10)
 This will increment `x` until it reaches `10`.
 
 ### Require()
-
 Using `require()` we can include other scripts into the current script.
+
+### Comments
+You can make comments with `;`.
+
+For example:
+```javascript
+var (x = 1)
+;var (x = 2)
+print(x)
+```
+`>>> 1`
 
 ###### Program1.prog
 ```javascript
